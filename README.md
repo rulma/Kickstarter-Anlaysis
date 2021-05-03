@@ -11,14 +11,14 @@ For our analysis we will be using the Kickstarter Dataset provided. [data-1-1-3-
 ***Fever*** is going to be a play so we will pay close attention to campaigns in the "Plays" subcategory. We will also look to see if the launch date and goals set by past campaigns had any impact on their performance.
 
 ### Analysis of Outcomes Based on Launch Date
-When looking at our dataset we wanted to see if there was any relationship between when a campaign was launched and the likelihood that it would be succesful. We wanted to look at campaign launch dates by Months. 
+When looking at our dataset we wanted to see if there was any relationship between when a campaign was launched and the likelihood that it would be succesful. We wanted to our campaign launch dates by months. By grouping by months we can get an overview of the seasonality of campaign's success throughout the calendar year.
 
-For our PivotTable we wanted to count the total number of campaigns based off of the month they were launched and that fell under the Parent Category *Plays*.
+For our PivotTable we wanted to count the total number of campaigns that fell under the Parent Category *Plays* and grouped by the month they were launched.
 To do this we used the following settings to create our table.
 
 ![Date Pivot Table Settings](https://user-images.githubusercontent.com/82015631/116833176-43b30700-ab7d-11eb-92b8-260af7310bf3.PNG)
 
-Once we did that our we then filtered by the *Parent Category* so that it only displayed campaigns that were labeled as *Plays*. Our table then gave us the following information.
+Once we did that we then filtered by the *Parent Category* so that it only displayed campaigns that were labeled as *Plays*. Our table then gave us the following information.
 
 ![Date Pivot Table](https://user-images.githubusercontent.com/82015631/116833195-62190280-ab7d-11eb-8c39-4c21eeadf260.PNG)
 
@@ -31,7 +31,7 @@ Using this table we were able to create a line graph that visualized the relatio
 ### Analysis of Outcomes Based on Goals
 The next focus of our analysis is the relationship between a campaigns listed goals and the rate at which they were succesful. We wanted to see if there was any relationship to a campaign having a higher or lower ($) amount and their ability to receive full funding. We wanted to know of higher cost campaigns outperformed lower cost campaigns.
 
-To do this we had to create table that organized our data by several variables. First we wanted to breakdown our campaigns into buckets based off of the goal they set. Those buckets were as follows : 
+To do this we had to create table that organized our data by several variables. First we wanted to breakdown our campaigns into buckets based off of the goal they set in the **goal** column. Those buckets were as follows : 
 - Less than $1,000
 - $1000 to $4999
 - $5000 to $9999
@@ -70,7 +70,7 @@ To do this we created a new column in our workbook titled "Date Created Conversi
 =(((K2/60)/60)/24)+DATE(1970,1,1)
 ```
 
-Once we had nice readable dates formatted for every campaign we then wanted to create a pivot table to help us filter and sort the data we wanted to graph. 
+Once we had nice readable dates formatted for every campaign it was much easier to conduct our analysis.
 
 Another issue with out dataset is that we are comparing campaigns from all across the world to one another. This can be misleading because of the discrepency asscociated with costs around the globe. For example, it would cost you more to launch a new play in New York City when compared to a small town in Mexico. Our inability to account for this discrepency may skew our data and conclusions.
 
