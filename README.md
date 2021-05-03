@@ -45,6 +45,20 @@ To do this we had to create table that organized our data by several variables. 
 - $45000 to $49999
 - Greater than $50000
 
+Within these buckets we then wanted to count the number of campaigns that were succesful, failed, and were canceled. To do this in Excel we utilized the following formula
+```
+=COUNTIFS('Kickstarter Data'!$G$2:$G$4115,"successful",'Kickstarter Data'!$E$2:$E$4115,"<1000",'Kickstarter Data'!$P$2:$P$4115,"plays")
+```
+The three criteria we are checking in the above example is that the campaign was *Succesful*, had goal of less than $1,000, and fell into the *Plays* category. The criteria changed depending on the outcome we were counting and the respective Goal bucket it fell into. Once we had a count of all campaigns and their outcomes we were able to calculate the percentage of succesful, failed, and canceled campaigns. 
+
+Our finished table looked as follows: 
+
+![Outcome_vs_Goals_Table](https://user-images.githubusercontent.com/82015631/116834235-b8d50b00-ab82-11eb-97a6-7ba56295fff3.PNG)
+
+With this table we were then able to create an additional line graph to visualize the relationship between a campaigns outcome and the initial goal set by its creators.
+
+Our graph is shown below:
+
 ![Outcomes_vs_Goals](https://user-images.githubusercontent.com/82015631/116832805-e9657680-ab7b-11eb-8a54-723ab7c83226.png)
 
 ### Challenges and Difficulties Encountered
