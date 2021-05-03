@@ -32,18 +32,18 @@ Using this table we were able to create a line graph that visualized the relatio
 The next focus of our analysis is the relationship between a campaigns listed goals and the rate at which they were succesful. We wanted to see if there was any relationship to a campaign having a higher or lower ($) amount and their ability to receive full funding. We wanted to know of higher cost campaigns outperformed lower cost campaigns.
 
 To do this we had to create table that organized our data by several variables. First we wanted to breakdown our campaigns into buckets based off of the goal they set. Those buckets were as follows : 
--Less than $1,000
--$1000 to $4999
--$5000 to $9999
--$10000 to $14999
--$15000 to $19999
--$20000 to $24999
--$25000 to $29999
--$30000 to $34999
--$35000 to $39999
--$40000 to $44999
--$45000 to $49999
--Greater than $50000
+- Less than $1,000
+- $1000 to $4999
+- $5000 to $9999
+- $10000 to $14999
+- $15000 to $19999
+- $20000 to $24999
+- $25000 to $29999
+- $30000 to $34999
+- $35000 to $39999
+- $40000 to $44999
+- $45000 to $49999
+- Greater than $50000
 
 ![Outcomes_vs_Goals](https://user-images.githubusercontent.com/82015631/116832805-e9657680-ab7b-11eb-8a54-723ab7c83226.png)
 
