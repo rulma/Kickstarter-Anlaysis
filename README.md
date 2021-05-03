@@ -29,7 +29,7 @@ Using this table we were able to create a line graph that visualized the relatio
 
 
 ### Analysis of Outcomes Based on Goals
-The next focus of our analysis is the relationship between a campaigns listed goals and the rate at which they were succesful. We wanted to see if there was any relationship to a campaign having a higher or lower ($) amount and their ability to receive full funding. We wanted to know of higher cost campaigns outperformed lower cost campaigns.
+The next focus of our analysis is the relationship between a campaigns listed goals and the rate at which they were succesful. We wanted to see if there was any relationship to a campaign having a higher or lower ($) amount Goal and their ability to receive full funding. We wanted to know of higher cost campaigns outperformed lower cost campaigns.
 
 To do this we had to create table that organized our data by several variables. First we wanted to breakdown our campaigns into buckets based off of the goal they set in the **goal** column. Those buckets were as follows : 
 - Less than $1,000
@@ -75,4 +75,25 @@ Once we had nice readable dates formatted for every campaign it was much easier 
 Another issue with out dataset is that we are comparing campaigns from all across the world to one another. This can be misleading because of the discrepency asscociated with costs around the globe. For example, it would cost you more to launch a new play in New York City when compared to a small town in Mexico. Our inability to account for this discrepency may skew our data and conclusions.
 
 In order to account for this in the future maybe we could use an additional column that gave the Cost of Living Index for each campaign and its respective campaign. Using this index we could develop a way to weight our campaigns and their relative success to the cost of living in their area. In addition, we could convert all of our currency values into a uniform currency such as the USD. This would make it easier to compare a campaign that raised MX$ 40,0000 to one that raised USD $40,0000.
+
 ## Results
+
+With our analysis we are able to draw several conclusions. In our initial analysis we looked at the relationship between a campaigns launch date and its outcome. We found that from the month of January to May we saw the total number of succesful campaigns doubled, meanwhile, the total number of canceled and failed campaigns held relatively constant. The number of sucesful campaigns peaks in the month of May and then slowly regresses as the summer comes to an end. 
+
+![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/82015631/116834627-96dc8800-ab84-11eb-885d-c9d0d114655f.PNG)
+
+As we can see not only are more campaigns succesful in the summer but the ratio of successful campaigns to failed campaigns grows as well. In the month of May sucsesful campaigns outnumber failed campaigns by more than 2:1. Now this dataset is looking at campaigns from around the world but the vast majority of the theater campaigns took place in the United States. 
+
+![category breakdown](https://user-images.githubusercontent.com/82015631/116834829-7660fd80-ab85-11eb-97c5-85b21140a9bd.PNG)
+
+Over 60% of theatre campaigns took place in the US. Now in the United States taxes must be filed by April 15th and once one has filed their taxes they can be eligble for a tax refund. By the month of May most citizens eligible for a refund have received it. This influx of disposable income may explaing the increased levels of sucessful campaigns through the summer months. 
+
+The noticible downturn of campaigns created in the winter months may be related to the Holiday season. Many people are focused on saving to travel, purchase gifts, and visit their extended family. The average person may have less disposable income in the winter months and therfor may be less likely to give to Kickstarte campaign that they would've supported at another time during the year. 
+
+This downturn is especially notable in the month of December which had not only the least number of succesful campaigns but also the lowest total of campaigns started. This points to people who would normally create campaigns do so outside of the busy holiday season. 
+
+Lastly, when looking at campaign outcomes relative to their goals we notice an interesting trend. 
+
+![Outcomes_vs_Goals](https://user-images.githubusercontent.com/82015631/116835047-64cc2580-ab86-11eb-8cf5-e5f0761a6c05.png)
+
+
