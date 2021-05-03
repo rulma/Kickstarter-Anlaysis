@@ -21,11 +21,15 @@ Once we had nice readable dates formatted for every campaign we then wanted to c
 
 For our PivotTable we wanted to count the total number of campaigns based off of the month they were launched and that fell under the Parent Category *Plays*.
 To do this we used the following settings to create our table.
+
 ![Date Pivot Table Settings](https://user-images.githubusercontent.com/82015631/116833176-43b30700-ab7d-11eb-92b8-260af7310bf3.PNG)
+
 Once we did that our we then filtered by the *Parent Category* so that it only displayed campaigns that were labeled as *Plays*. Our table then gave us the following information.
+
 ![Date Pivot Table](https://user-images.githubusercontent.com/82015631/116833195-62190280-ab7d-11eb-8c39-4c21eeadf260.PNG)
 
 Using this table we were able to create a line graph that visualized the relationship between a campaigns launch date and the likelihood that it either was succesful, canceled or failed.
+
 ![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/82015631/116832802-e36f9580-ab7b-11eb-9296-ada7b3694ccf.PNG)
 
 ### Analysis of Outcomes Based on Goals
