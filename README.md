@@ -76,6 +76,8 @@ Another issue with out dataset is that we are comparing campaigns from all acros
 
 In order to account for this in the future maybe we could use an additional column that gave the Cost of Living Index for each campaign and its respective campaign. Using this index we could develop a way to weight our campaigns and their relative success to the cost of living in their area. In addition, we could convert all of our currency values into a uniform currency such as the USD. This would make it easier to compare a campaign that raised MX$ 40,0000 to one that raised USD $40,0000.
 
+With the inclusion of a COI index and uniformed currency we could create a more accurat graph to compare the relative finacial success of the campaigns. We could accurately compare a campaign that raised $400,000 in NYC with a campaign in small town Mexico that raised $2,000. Without accounting for the difference in costs of living we would assume that the NYC campaign was more succesful or better performing but in comparison the campaign in Mexico may have a raised a greater amount of money relative to the GDP of its community.
+
 ## Results
 
 With our analysis we are able to draw several conclusions. In our initial analysis we looked at the relationship between a campaigns launch date and its outcome. We found that from the month of January to May we saw the total number of succesful campaigns doubled, meanwhile, the total number of canceled and failed campaigns held relatively constant. The number of sucesful campaigns peaks in the month of May and then slowly regresses as the summer comes to an end. 
@@ -96,4 +98,10 @@ Lastly, when looking at campaign outcomes relative to their goals we notice an i
 
 ![Outcomes_vs_Goals](https://user-images.githubusercontent.com/82015631/116835047-64cc2580-ab86-11eb-8cf5-e5f0761a6c05.png)
 
+We can see that campaigns that set a goal of less than $1,000 saw nearly a ~%80 success rate. Meanwhile, on the opposite end of the spectrum, campaigns with a goal greater than $45,000 saw >80% chance to fail. We may be able to assume that people creating campaigns for under $1,000 have realistic goals for what they want to accomplish and have accurately estimated the costs associated. It is also easier to convice a smaller loyal group of supporters to offer small donor donations. As the cost of a campaign increases so too will either the number of backers or the average dollar donation. Doing either of these things is challenging. 
 
+Think for example that you want to raise money to repain the basketball court in your community. It would be very easy for you to raise $1,000 by collecting money from community residents who enjoy and use the court. But lets say you wanted to raise money to build a swimming pool, this could cost upwards of $200,000. Those in your community may be just a supportive but are unable to provide either neccesary number of backers or average donation size to make the campaign succsful. 
+
+Have small clear thoughtout campaigns that are targeted well to your potential stakeholders will increas the likelihood that you are able to receive the funding that you are requesting. 
+
+In conclusion, we recommend that *Louise* launches her Kickstarter campaign in the summer with a small and concise goal of less than $10,000. By doing this she should increase the chances of her succeeding.
