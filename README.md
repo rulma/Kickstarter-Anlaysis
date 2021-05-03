@@ -14,9 +14,11 @@ For our analysis we will be using the Kickstarter Dataset provided.[data-1-1-3-S
 When looking at our dataset we wanted to see if there was any relationship between when a campaign was launched and the likelihood that it would be succesful. We wanted to look at campaign launch dates by Months. Unfortunately, the raw dataset only had the dates formatted in XML (Extensible Markup Language). So first we had to convert all of our dates into a more readable format. 
 
 To do this we created a new column in our workbook titled "Date Created Conversion" and utilized the following formula to convert the data found in column "launched_at":
-'''
+
+```
 =(((K2/60)/60)/24)+DATE(1970,1,1)
-'''
+```
+
 Once we had nice readable dates formatted for every campaign we then wanted to create a pivot table to help us filter and sort the data we wanted to graph. 
 
 For our PivotTable we wanted to count the total number of campaigns based off of the month they were launched and that fell under the Parent Category *Plays*.
