@@ -61,6 +61,9 @@ Our graph is shown below:
 
 ![Outcomes_vs_Goals](https://user-images.githubusercontent.com/82015631/116832805-e9657680-ab7b-11eb-8a54-723ab7c83226.png)
 
+
+## Results
+
 ### Challenges and Difficulties Encountered
 We ran into a challenge right away, unfortunately, the raw dataset only had the dates formatted in XML (Extensible Markup Language). So first we had to convert all of our dates into a more readable format. 
 
@@ -78,7 +81,7 @@ In order to account for this in the future maybe we could use an additional colu
 
 With the inclusion of a COI index and uniformed currency we could create a more accurate graph to compare the relative financial success of the campaigns. We could accurately compare a campaign that raised $400,000 in NYC with a campaign in small town Mexico that raised $2,000. Without accounting for the difference in costs of living we would assume that the NYC campaign was more successful or better performing but in comparison the campaign in Mexico may have a raised a greater amount of money relative to the GDP of its community.
 
-## Results
+### Conclusion and Recommendations
 
 With our analysis we can draw several conclusions. In our initial analysis we looked at the relationship between a campaign launch date and its outcome. We found that from the month of January to May we saw the total number of successful campaigns doubled, meanwhile, the total number of canceled and failed campaigns held relatively constant. The number of successful campaigns peaks in the month of May and then slowly regresses as the summer comes to an end. 
 
@@ -105,3 +108,5 @@ Think for example that you want to raise money to repair the basketball court in
 Having small clear though out campaigns that are targeted well to your potential stakeholders will increase the likelihood that you are able to receive the funding that you are requesting. 
 
 In conclusion, we recommend that *Louise* launches her Kickstarter campaign in the summer with a small and concise goal of less than $10,000. By doing this she should increase the chances of having a successful campaign thus bringing the joy of her play ***Fever*** to the public.
+
+
